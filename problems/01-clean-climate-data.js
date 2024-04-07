@@ -12,7 +12,8 @@ For example, it should return:
 */
 
 function listAllCitiesWithCountries(climateData) {
-    // Your code here 
+    // Your code here
+    return climateData.map(data=> data.city + ", "+data.country)
 }
 
 // console.log(listAllCitiesWithCountries(climateData));
@@ -31,7 +32,7 @@ For example, it should return:
 
 
 function listAllUsCities(climateData) {
-    // Your code here 
+    // Your code here
 }
 
 // console.log(listAllUsCities(climateData));
@@ -51,7 +52,7 @@ was duplicated in id 3, 7, and 9, the returned object should look like:
 
 
 function findDuplicates(climateData) {
-    // Your code here 
+    // Your code here
 }
 
 // console.log(findDuplicates(climateData));
@@ -73,7 +74,7 @@ but do not have to, use this method to solve this problem.
 
 
 function returnDuplicate(climateData) {
-    // Your code here 
+    // Your code here
 }
 
 // console.log(returnDuplicate(climateData));
@@ -93,7 +94,7 @@ HINT: Can you use functions you have already written to help solve this problem?
 
 
 function correctDuplicate(climateData, newCityName) {
-    // Your code here 
+    // Your code here
 }
 
 // console.log(correctDuplicate(climateData, "Peoria IL"));
